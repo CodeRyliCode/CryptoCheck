@@ -6,7 +6,6 @@ import Coin from './Coin';
 
 
 
-
 function App() {
   const [coins, setCoins] = useState ([]);
   const [search, setSearch] = useState('')
@@ -56,7 +55,9 @@ const filteredCoins = coins.filter(coin =>
    );
       })};
     </div>
+    
   );
+  
 }
 
 export default App;
